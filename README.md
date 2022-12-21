@@ -1,6 +1,6 @@
 # AvatarBot 
 #### PYTHON TELEGRAM USERBOT
-Change your Telegram avatar depending on your electricity ( Ping your internet ).
+Change your Telegram avatar depending on your electricity ( Ping internet ).
 You can add candle on your photo if you want!
 
 
