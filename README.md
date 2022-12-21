@@ -1,6 +1,6 @@
 # AvatarBot 
 #### PYTHON TELEGRAM USERBOT
-Change your Telegram avatar depending on your power supply ( Ping your internet ).
+Change your Telegram avatar depending on your electricity ( Ping your internet ).
 You can add candle on your photo if you want!
 
 
@@ -16,8 +16,8 @@ ____
 ____
 
 ### Commands:
-1. '_/change_on_' -> Set avatar if you have power supply. ( Use command as caption for a photo )
-2. '_/change_off_' -> Set avatar if you havent power supply. ( Use command as caption for a photo )
-3. '_/create_off_' -> Add candle on your photo and set this as avatar if you havent power supply. Use square photo for this.
+1. '_/change_on_' -> Set avatar if you have electricity. ( Use command as caption for a photo )
+2. '_/change_off_' -> Set avatar if you havent electricity. ( Use command as caption for a photo )
+3. '_/create_off_' -> Add candle on your photo and set this as avatar if you havent electricity. Use square photo for this.
 4. '_/get_session_string_' -> Print your session string.
 5. '_/get_user_id_' -> Print id for user who send message.
