@@ -1,0 +1,5 @@
+APScheduler==3.9.1.post1
+icmplib==3.0.3
+Pillow==9.3.0
+Pyrogram==2.0.69
+python-dotenv==0.21.0
