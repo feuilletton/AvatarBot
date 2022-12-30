@@ -17,6 +17,8 @@ async def photos(Client, message):
     elif '/create_off' in message.caption and str(message.from_user.id) == str(my_id):
         await Client.download_media(message.photo.file_id, file_name='off.png')
         addcandle.analyze('downloads/off.png')
+        await message.reply_document(document='downloads/off.png', quote=True)
+
 
 @Client.on_message(filters.text)
 async def text(Client, message):
@@ -24,5 +26,6 @@ async def text(Client, message):
         print(await Client.export_session_string())
     elif '/get_user_id' in message.text:
         print(message.from_user.id)
-
+    elif '/get_current_off' in message.text:
+        await message.reply_document(document='downloads/off.png', quote=True)
 
